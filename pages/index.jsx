@@ -5,9 +5,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 export default function Home(props) {
-    const router = useRouter();
-    const { query } = router;
-    const gtm = query.gtm;
+    // git
     const blackcss = {
         margin: 10,
         border: "0px",
@@ -55,7 +53,7 @@ export default function Home(props) {
         if (gtm) {
             TagManager.initialize({ gtmId: "GTM-KRS8ZJ4" });
         }
-    }, [gtm]);
+    }, []);
     return (
         <div className={styles.container}>
             <Head>
