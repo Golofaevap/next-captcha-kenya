@@ -49,7 +49,7 @@ export default function Home(props) {
         // alert(gtm);
         // TagManager.initialize({ gtmId: "GTM-KD7H4RT" });
         // TagManager.initialize({ gtmId: "GTM-59WP5XJ" });
-        TagManager.initialize({ gtmId: "GTM-KRS8ZJ4" });
+        TagManager.initialize({ gtmId: "GTM-NRPWWLG" });
         // if (gtm) {
         //     TagManager.initialize({ gtmId: "GTM-KRS8ZJ4" });
         // }
